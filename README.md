@@ -12,9 +12,9 @@ Or you can manually copy `src/emoji-clock` into your project.
 # Usage
 
 ```lua
-local emojiClock = require 'emoji_clock'
+local emojiClock = require 'emoji-clock'
 
 local time = os.time()
 
-print(emojiClock.get(time))
+print(emojiClock(time))
 ```

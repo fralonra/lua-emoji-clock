@@ -15,6 +15,6 @@ dependencies = {
 build = {
   type = "builtin",
   modules = {
-    emoji_clock = "src/emoji-clock/init.lua"
+    emoji-clock = "src/emoji-clock/init.lua"
   }
 }
